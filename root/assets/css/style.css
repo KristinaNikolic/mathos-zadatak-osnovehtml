@@ -1,0 +1,167 @@
+body{
+	padding-top:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #B3C4B4;
+}
+
+.container{
+	width:70%;
+	background-image: url("../img/background.jpg");
+	margin: auto auto;
+}
+
+.header{
+	text-align: center;
+	padding: 15px;
+}
+
+
+.nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+
+}
+
+.nav  li{
+	float: left;
+	width: -webkit-calc(100% / 3);
+}
+
+.nav ul li a:link, .nav ul li a:visited {
+	display : block;
+	background-color: #B3C4B4;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	color: black;
+}
+
+.nav ul li a:hover, .nav ul li a.selected, .nav ul li a:active {
+	background: #9DAE9C;
+	color: black;
+	text-decoration: none;
+}
+
+.container2,
+.container3,
+.container4{
+	background-color: #9DAE9C;
+	padding-bottom:20px;
+	overflow:hidden;
+	box-sizing : border-box;
+}
+
+.container2 .section,
+.container2 .main,
+.container2 .aside,
+.container3 .section,
+.container3 .aside,
+.container4 .section,
+.container4 .aside{
+	display:inline-block;
+	float:left;
+	box-sizing: border-box;
+}
+.container2 .section{
+	width: 27%;
+	padding: 10px;
+}
+
+.container2 .main{
+	width: 50%;
+	text-align: center;
+	padding-top:150px;
+}
+
+.container2 .aside,
+.container3 .aside,
+.container4 .aside{
+	width: 23%;
+	padding-top: 50px;
+}
+
+.container2 .aside ul,
+.container3 .aside ul,
+.container4 .aside ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+}
+
+.container2 .aside ul li a:link,
+.container2 .aside ul li a:visited,
+.container3 .aside ul li a:link,
+.container3 .aside ul li a:visited,
+.container4 .aside ul li a:link,
+.container4 .aside ul li a:visited{
+	display : block;
+	text-decoration: none;
+	text-align: left;
+	font-weight: bold;
+	padding: 10px;
+	color: black;
+}
+
+.container2 .aside ul li a:hover,
+.container2 .aside ul li a.selected,
+.container2 .aside ul li a:active,
+.container3 .aside ul li a:hover,
+.container3 .aside ul li a.selected,
+.container3 .aside ul li a:active,
+.container4 .aside ul li a:hover,
+.container4 .aside ul li a.selected,
+.container4 .aside ul li a:active{
+	background: #B3C4B4;
+	color: black;
+	text-decoration: none;
+}
+
+.container3 .section,
+.container4 .section{
+	width: 77%;
+	padding-top: 20px;
+	
+}
+
+.container3 .section h3{
+	padding-left: 10px;
+}
+
+.container4 .section h3{
+	padding-left: 50px;
+}
+
+.container4 .section .forma label{
+	width: 50%;
+	padding-left: 10%;
+}
+
+
+.container4 .section .forma input,
+.container4 .section .forma textarea{
+	width: 50%;
+	align: right; 
+}
+.container4 .section .space,
+.container4 .section .forma{
+	display:inline-block;
+	float:left;
+}
+
+.container4 .section .space{
+	width: 25%;
+}
+
+.container4 .section .forma{
+	width: 75%;
+}
+
+.footer{
+	height: 30px;
+	width: 100%;
+	background-color:black;
+}
